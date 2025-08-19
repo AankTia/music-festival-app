@@ -1,6 +1,6 @@
-class CreateShopingCarts < ActiveRecord::Migration[7.1]
+class CreateShoppingCarts < ActiveRecord::Migration[7.1]
   def change
-    create_table :shoping_carts do |t|
+    create_table :shopping_carts do |t|
       t.references :user, null: false, foreign_key: true
 
       t.timestamps
