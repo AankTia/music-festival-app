@@ -63,5 +63,13 @@ group :development do
   # gem "spring"
 
   gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
+
+  gem "ruby-lsp"
+  gem "rubocop"
+  gem "rubocop-packaging"
+  gem "rubocop-performance"
+  gem "rubocop-rspec"
+  gem "rubocop-shopify"
+  gem "rubocop-thread_safety"
 end
 
