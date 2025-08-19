@@ -4,9 +4,9 @@ services:
     container_name: mfa_pg_container
     restart: always
     environment:
+      POSTGRES_DB: music_festival_db
       POSTGRES_USER: music_festival_user
       POSTGRES_PASSWORD: music_festival_password
-      POSTGRES_DB: music_festival_user_db
     ports:
       - "5431:5432"
     volumes:
